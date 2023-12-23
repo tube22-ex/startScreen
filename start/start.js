@@ -123,3 +123,7 @@ document.getElementById('account').addEventListener('click',signInDisplaySetting
     }
     
 })
+
+document.getElementById('start').addEventListener('click',()=>{
+    location.href = 'https://tube22-ex.github.io/TYTUBE/' //今はURLを変えてページに遷移するだけ
+})
